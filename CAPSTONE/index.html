@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShopEase - E-Commerce Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>ShopEase</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Cart</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <aside class="sidebar">
+      <h2>Filters</h2>
+      <form>
+        <label>Category</label>
+        <select>
+          <option>All</option>
+          <option>Clothing</option>
+          <option>Electronics</option>
+        </select>
+
+        <label>Price</label>
+        <input type="range" min="0" max="1000" />
+        <button type="submit">Apply</button>
+        </form>
+    </aside>
+
+    <section class="product-list">
+      <article class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Product 1" />
+        <h3>Product Name</h3>
+        <p>199</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <article class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Product 2" />
+        <h3>Another Item</h3>
+        <p>299</p>
+        <button>Add to Cart</button>
+      </article>
+
+      <!-- Add more products -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ShopEase. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
